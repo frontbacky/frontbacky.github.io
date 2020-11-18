@@ -1,0 +1,103 @@
+body{
+	font-family: 'Karla', sans-serif;
+	margin: 0 auto;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+}
+span{
+border-bottom:1px solid #404040;
+}
+h1, h2, h3, h4, h5, h6{
+	color:#404040;
+}
+h1{
+	font-weight: 700;
+
+	font-size: 52px;
+	line-height: 0,2em;
+}
+div .yellowdisc{
+	width: 268px;
+	position:absolute;
+	height: 268px;
+	background-color:#f2c94c;
+	left:
+	top:70px;
+	border-radius: 50%;
+}
+.hello{
+margin:40px 0px 0px 40px;
+display:flex;
+align-items: center;
+position: relative;
+}
+.container{
+	margin: 0 auto;
+	width:1170px;
+	border-bottom:1px solid #404040;
+}
+p{
+	line-height: 5px;
+}
+.aside1{
+	margin-left: 130px;
+}
+.aside2{
+	margin: 22px 0px  60px 614px;
+}
+.about1 {
+width: 60%;
+margin-right:97px;
+}
+section .container{
+	border: none;
+}
+.about{
+	display: flex;
+	justify-content: space-between;
+	margin-top:15px;
+}
+.about p{
+
+	line-height: 22px;
+}
+.disc{
+	background-color:#404040;
+	border-radius:50%;
+	width: 15px;
+	height: 15px;
+}
+footer .container{
+	border-bottom:none;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+}
+footer .container p{
+	font-size: 13px;
+}
+.mail{
+    margin-right: 910px;
+}
+
+
+@media screen and (min-width : 310px) {
+body{
+	margin:55px;
+}
+div.aside1{
+	float:left;
+}
+}
+@media screen and (min-device-width : 768px) {
+
+}
+@media screen and (min-device-width :1224px) {
+
+}
+@media screen and (min-device-width : 1824px) {
+
+}
